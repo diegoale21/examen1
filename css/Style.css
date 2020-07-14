@@ -1,17 +1,27 @@
  *{
-    background-color: #5dc1b9;
+    background color:  #FFFFFF;
     box-sizing: border-box; 
   }
 
 #box{
-    background-color: black;
+    background-color: #FFFFFF ;
     padding:20px;
    
 }
+  
+
+h1{
+  color: white;
+}
+h2{
+  color: white;
+}
+
+
  
  *
  {
-  background: #f4a900
+  background: url(../imagenes/guitarras.jpg);
 
  }
  
@@ -19,22 +29,22 @@ h2{
     margin-bottom: 30px;
     padding-top: 20px;
     text-align: center;
-    background-color: #5dc1b9;
+    background-color: #FFFFFF;
 }
 
 #highlight {
-    background-color: #5dc1b9;
-    border: 4px solid black;
+    color: #FFFFFF;
+    border: 4px solid white;
     font-size:24px;
     font-weight: bold;
-    font-color:black;
+    font-color:#FFFFFF;
     font-style: normal;
     float: right;
     padding: 10px 30px 10px 30px;
 }
 #highlight2 {
-    background-color: #5dc1b9;
-    border: 4px solid black;
+    color:  #FFFFFF;
+    border: 4px solid white;
     font-size:24px;
     font-weight: bold;
     font-color:black;
@@ -44,8 +54,8 @@ h2{
 }
 #highlight3 {
      
-    background-color: #5dc1b9;
-    border: 4px solid black;
+    color:  #FFFFFF;
+    border: 4px solid white;
     font-size:24px;
     font-weight: bold;
     font-color:white;
@@ -53,15 +63,38 @@ h2{
     float: right;
     padding: 10px 30px 10px 30px;
 }
-
+#highlight4 {
+     
+    color:  #FFFFFF;
+    border: 4px solid white;
+    font-size:24px;
+    font-weight: bold;
+    font-color:white;
+    font-style: normal;
+    float: right;
+    padding: 10px 30px 10px 30px
  
+  }
+
+  #highlight5 {
+    color:  #FFFFFF;
+    border: 4px solid white;
+    font-size:24px;
+    font-weight: bold;
+    font-color:white;
+    font-style: normal;
+    float: left;
+    padding: 10px 30px 10px 30px;
+
+           }
+
 
 #p1 {
     padding: 60px 20px 10px 20px;
     border: 3px solid;
     font-size:18px;
-    background-color:gray;
-    color:black;
+    background-color:#FFFFFF;
+    color:#FFFFFF;
     font-weight: bold;
     font-style: italic;
   }
@@ -70,8 +103,8 @@ h2{
      padding: 60px 20px 10px 20px;
     border: 3px solid;
     font-size:18px;
-    background-color:gray;
-    color:black;
+    background-color:#FFFFFF;
+    color:white;
     font-weight: bold;
     font-style: italic;
     }
@@ -80,11 +113,31 @@ h2{
     padding: 60px 20px 10px 20px;
     border: 3px solid;
     font-size:18px;
-    background-color:gray;
-    color:black;
+    background-color:#FFFFFF;
+    color:white;
     font-weight: bold;
     font-style: italic;
    }
+
+   #p4 {
+    padding: 60px 20px 10px 20px;
+    border: 3px solid;
+    font-size:18px;
+    background-color:#FFFFFF;
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+   }
+
+   #p5 {
+     padding: 60px 20px 10px 20px;
+    border: 3px solid;
+    font-size:18px;
+    background-color:#FFFFFF;
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    }
 /* RESPONSIVE WORK DEVICE */
 
 .fili {
@@ -176,6 +229,53 @@ h2{
 }
         
 }
+@media (min-width:767px)
+{
+.colp1, .colp2, .colp3, .colp4, .colp5, .colp6,.colp7, .colp8, .colp9,.colp10, .colp11, .colp12 {
+  float: left; 
+} 
+.colp1{
+  width: 100%;
+}
+.colp2{
+  width: 100%;
+}
+.colp3{
+  width: 100%;
+}
+.colp4{
+  width: 33.33%;
+}
+.colp5{
+  width: 41.66%;
+}
+.colp6{
+  width: 50%;
+}
+.colp7{
+  width: 58.33%;
+}
+.colp8{
+  width: 66.66%;
+}
+.colp9{
+  width: 74.99%;
+}
+.colp10{
+  width: 83.33%;
+}
+.colp11{
+  width: 91.66%;
+}
+.colp12{
+  width: 100%;
+}
+#cosita{
+     position: relative;
+}
+         
+}
+
 @media (min-width:767px)
 {
 .colp1, .colp2, .colp3, .colp4, .colp5, .colp6,.colp7, .colp8, .colp9,.colp10, .colp11, .colp12 {
